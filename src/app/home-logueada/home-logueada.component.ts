@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home-logada',
+  selector: 'app-home-logueada',
   template: `
     <p>
-      home-logada works!
+      home-logueda works!
     </p>
   `,
-  styleUrls: ['./home-logada.component.scss']
+  styleUrls: ['./home-logueada.component.scss']
 })
 export class HomeLogueadaComponent implements OnInit {
 
