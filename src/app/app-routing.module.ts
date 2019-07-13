@@ -10,8 +10,7 @@ const routes: Routes = [
   { path: 'registro-clientes', component: RegistroClientesComponent },
   //{ path: 'registro-finalizado', component: RegistroFinalizadoComponent },
   { path: 'home-logueada', component: HomeLogueadaComponent, canActivate: [AuthGuard] },
-  //{ path: 'acceso-denegado', component: AccesoDenegadoComponent }
-
+  //{ path: 'acceso-denegado', component: AccesoDenegadoComponent },
 ];
 
 @NgModule({

@@ -15,6 +15,7 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { RegistroClientesComponent } from './registro-clientes/registro-clientes.component';
 import { HomeLogueadaComponent } from './home-logueada/home-logueada.component';
 import { LoginComponent } from './login/login.component';
+import { RegistroFinalizadoComponent } from './registro-finalizado/registro-finalizado.component';
 
 
 
@@ -29,6 +30,7 @@ import { LoginComponent } from './login/login.component';
     RegistroClientesComponent,
     HomeLogueadaComponent,
     LoginComponent,
+    RegistroFinalizadoComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,7 +43,7 @@ import { LoginComponent } from './login/login.component';
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  exports: [HeaderComponent, ContentComponent, FooterComponent, RegistroClientesComponent, LoginComponent]
+  exports: [HeaderComponent, ContentComponent, FooterComponent, RegistroClientesComponent, LoginComponent, RegistroFinalizadoComponent]
 })
 
 export class AppModule { }
