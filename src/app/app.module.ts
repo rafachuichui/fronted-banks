@@ -13,7 +13,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { ContentComponent } from './layout/content/content.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { RegistroClientesComponent } from './registro-clientes/registro-clientes.component';
-import { HomeLoginComponent } from './home-login/home-login.component';
+import { HomeLoginComponent } from './home-logada/home-logada.component';
 import { LoginComponent } from './login/login.component';
 
 
