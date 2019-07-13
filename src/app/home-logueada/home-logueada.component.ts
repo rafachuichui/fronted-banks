@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
   `,
   styleUrls: ['./home-logada.component.scss']
 })
-export class HomeLoginComponent implements OnInit {
+export class HomeLogueadaComponent implements OnInit {
 
   constructor() { }
 

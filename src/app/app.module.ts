@@ -13,7 +13,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { ContentComponent } from './layout/content/content.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { RegistroClientesComponent } from './registro-clientes/registro-clientes.component';
-import { HomeLoginComponent } from './home-logada/home-logada.component';
+import { HomeLogueadaComponent } from './home-logueada/home-logueada.component';
 import { LoginComponent } from './login/login.component';
 
 
@@ -27,7 +27,7 @@ import { LoginComponent } from './login/login.component';
     ContentComponent,
     FooterComponent,
     RegistroClientesComponent,
-    HomeLoginComponent,
+    HomeLogueadaComponent,
     LoginComponent,
   ],
   imports: [
