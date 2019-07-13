@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { Router } from '@angular/router';
-import { ModalNotCadastroComponent } from '../modal-not-cadastro/modal-not-cadastro.component';
+import { ModalNotRegistroComponent } from '../modal-not-registro/modal-not-registro.component';
 import { MatDialog } from '@angular/material';
 
 @Component({
@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
     this.formLogin = this.fb.group({
-      cpf: ['']
+      dni: ['']
     });
   }
   onlynumber(evt) {

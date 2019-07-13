@@ -16,6 +16,7 @@ import { RegistroClientesComponent } from './registro-clientes/registro-clientes
 import { HomeLogueadaComponent } from './home-logueada/home-logueada.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroFinalizadoComponent } from './registro-finalizado/registro-finalizado.component';
+import { AccesoDenegadoComponent } from './acceso-denegado/acceso-denegado.component';
 
 
 
@@ -31,6 +32,7 @@ import { RegistroFinalizadoComponent } from './registro-finalizado/registro-fina
     HomeLogueadaComponent,
     LoginComponent,
     RegistroFinalizadoComponent,
+    AccesoDenegadoComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,7 @@ import { RegistroFinalizadoComponent } from './registro-finalizado/registro-fina
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  exports: [HeaderComponent, ContentComponent, FooterComponent, RegistroClientesComponent, LoginComponent, RegistroFinalizadoComponent]
+  exports: [HeaderComponent, ContentComponent, FooterComponent, RegistroClientesComponent, LoginComponent, RegistroFinalizadoComponent, AccesoDenegadoComponent]
 })
 
 export class AppModule { }
