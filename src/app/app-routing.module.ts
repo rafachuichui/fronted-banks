@@ -6,7 +6,7 @@ import { RegistroClientesComponent } from './registro-clientes/registro-clientes
 import { AuthGuard } from 'src/auth.guard';
 import { RegistroFinalizadoComponent } from './registro-finalizado/registro-finalizado.component';
 import { HomeLogueadaComponent } from './home-logueada/home-logueada.component';
-import { AccesoDenegadoComponent } from '../acesso-negado/acesso-negado.component';
+import { AccesoDenegadoComponent } from './acceso-denegado/acceso-denegado.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [

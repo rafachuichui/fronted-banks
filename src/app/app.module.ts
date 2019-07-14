@@ -17,6 +17,7 @@ import { HomeLogueadaComponent } from './home-logueada/home-logueada.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroFinalizadoComponent } from './registro-finalizado/registro-finalizado.component';
 import { AccesoDenegadoComponent } from './acceso-denegado/acceso-denegado.component';
+import { ModalNotRegistroComponent } from './modal-not-registro/modal-not-registro.component';
 
 
 
@@ -33,6 +34,7 @@ import { AccesoDenegadoComponent } from './acceso-denegado/acceso-denegado.compo
     LoginComponent,
     RegistroFinalizadoComponent,
     AccesoDenegadoComponent,
+    ModalNotRegistroComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,7 @@ import { AccesoDenegadoComponent } from './acceso-denegado/acceso-denegado.compo
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  exports: [HeaderComponent, ContentComponent, FooterComponent, RegistroClientesComponent, LoginComponent, RegistroFinalizadoComponent, AccesoDenegadoComponent]
+  exports: [HeaderComponent, ContentComponent, FooterComponent, RegistroClientesComponent, LoginComponent, RegistroFinalizadoComponent, AccesoDenegadoComponent, ModalNotRegistroComponent]
 })
 
 export class AppModule { }
