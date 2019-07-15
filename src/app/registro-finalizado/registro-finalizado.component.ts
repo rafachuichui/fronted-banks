@@ -17,7 +17,7 @@ export class RegistroFinalizadoComponent implements OnInit {
   navegarParaLogin() {
     setTimeout(() => {
       this.router.navigate(['/login']);
-    }, 10000);
+    }, 3000);
   }
 
 }
