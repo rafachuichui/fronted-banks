@@ -3,6 +3,8 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AuthGuard } from 'src/auth.guard';
 import { AuthService } from 'src/auth.service';
+import { SingletonRouterService } from 'src/services/singleton-Router.service';
+import { MatCardModule } from '@angular/material/card';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -41,11 +43,13 @@ import { ModalNotRegistroComponent } from './modal-not-registro/modal-not-regist
     AppRoutingModule,
     BrowserAnimationsModule,
     MatDialogModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatCardModule
 
   ],
-  providers: [],
+  providers: [AuthGuard, AuthService, SingletonRouterService],
   bootstrap: [AppComponent],
+  entryComponents: [ModalNotRegistroComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   exports: [HeaderComponent, ContentComponent, FooterComponent, RegistroClientesComponent, LoginComponent, RegistroFinalizadoComponent, AccesoDenegadoComponent, ModalNotRegistroComponent]
 })
