@@ -4,11 +4,16 @@
     background-color: #333;
     border: 0;
     color: #fff;
+    // float: right;
+    justify-content: flex-end
     }
     @media screen and (min-width: 600px) {
     .wrapper-header {
     height: 15vh;
+    // float: right;
+    justify-content: flex-end
     }
+
     .menu-header li {
     list-style: none;
     display: inline;
@@ -16,8 +21,13 @@
     margin: 10px;
     top: 30px;
     font-size: 18px;
+    justify-content: flex-end
+    
     }
     }
-    .form-row.align-items-center {
+
+.form-row.align-items-center {
     height: 380px;
+    // float: right;
+    justify-content: flex-end
     }
