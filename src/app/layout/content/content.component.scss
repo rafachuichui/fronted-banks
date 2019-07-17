@@ -34,7 +34,9 @@ width: auto;
 height: auto;
 z-index: -1000;
 background: url('https://github.com/daniloagostinho/traning-book/blob/master/src/assets/images/bg_banking.png?raw=true') no-repeat;
-//background:url('/bank/src/assets/index.jpeg');
+// background-image: url('/banks/src/assets/bg_banking.png') no-repeat;
+// background: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fnobaweb.com%2Ffiles%2F2017%2F09%2Fcomputer-buy-money-banknotes-163056.jpg&imgrefurl=https%3A%2F%2Fnobaweb.com%2Fen%2Fentiendo-fondo-el-conversion-rate-optimization-vol-2%2Fcomputer-buy-money-banknotes-163056%2F&docid=iwGe4o7m9PJu9M&tbnid=vNPqXOUIq-kZbM%3A&vet=10ahUKEwito9W3zbrjAhUXQxUIHQUxD0gQMwiIASg9MD0..i&w=6000&h=4000&itg=1&client=ubuntu&bih=928&biw=1871&q=money%20computer&ved=0ahUKEwito9W3zbrjAhUXQxUIHQUxD0gQMwiIASg9MD0&iact=mrc&uact=8') no-repeat;
+// background: url('https://pxhere.com/en/photo/927325') no-repeat;
 background-size: cover;
 }
 
@@ -49,16 +51,9 @@ background-size: cover;
     border: 2px solid;
     }
 
-    // .wrapper-content h2 {
-    //     font-size: 30pt;
-    //     color: #fff;
-    //     text-shadow: 2px 2px #333;
-    //     font-family: 'Crete Round', serif !important;
-    //     }
-
-h2 {
-     font-size: 20pt;
-     color: #fff;
+.wrapper-content h2 {
+font-size: 20pt;
+    color: #fff;
      text-shadow: 2px 2px #333;
-     font-family: 'Crete Round', serif !important;
-     }
+    font-family: 'Crete Round', serif !important;
+    }

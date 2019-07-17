@@ -33,7 +33,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('Component app-header inciado...');
+    console.log('Component app-header iniciado...');
   }
 
 }
