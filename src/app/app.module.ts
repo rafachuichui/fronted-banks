@@ -20,6 +20,11 @@ import { SingletonRouterService } from 'src/services/singleton-Router.service';
 
 import { MatCardModule } from '@angular/material/card';
 import { LoginComponent } from './login/login.component';
+import { BanksComponent } from './shared/components/banks/banks.component';
+import { StockexchangeComponent } from './shared/components/stockexchange/stockexchange.component';
+import { NavbarComponent } from './shared/components/banks/stock-exchange/navbar/navbar.component';
+import { StockExchangeComponent } from './shared/components/stock-exchange/stock-exchange.component';
+
 
 
 @NgModule({
@@ -34,6 +39,11 @@ import { LoginComponent } from './login/login.component';
     RegistroFinalizadoComponent,
     AccesoDenegadoComponent,
     ModalNotRegistroComponent,
+    BanksComponent,
+    StockexchangeComponent,
+    NavbarComponent,
+    StockExchangeComponent,
+
 
   ],
   imports: [
@@ -49,7 +59,7 @@ import { LoginComponent } from './login/login.component';
   bootstrap: [AppComponent],
   entryComponents: [ModalNotRegistroComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  exports: [HeaderComponent, ContentComponent, FooterComponent, RegistroClientesComponent, LoginComponent, RegistroFinalizadoComponent, AccesoDenegadoComponent, ModalNotRegistroComponent]
+  exports: [HeaderComponent, ContentComponent, FooterComponent, RegistroClientesComponent, LoginComponent, RegistroFinalizadoComponent, AccesoDenegadoComponent, ModalNotRegistroComponent, BanksComponent, StockexchangeComponent, NavbarComponent, StockExchangeComponent,]
 })
 
 export class AppModule { }
