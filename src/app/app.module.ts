@@ -21,6 +21,7 @@ import { SingletonRouterService } from 'src/services/singleton-Router.service';
 import { MatCardModule } from '@angular/material/card';
 import { LoginComponent } from './login/login.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +34,7 @@ import { LoginComponent } from './login/login.component';
     RegistroFinalizadoComponent,
     AccesoDenegadoComponent,
     ModalNotRegistroComponent,
+
   ],
   imports: [
     BrowserModule,
