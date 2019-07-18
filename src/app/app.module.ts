@@ -20,10 +20,12 @@ import { SingletonRouterService } from 'src/services/singleton-Router.service';
 
 import { MatCardModule } from '@angular/material/card';
 import { LoginComponent } from './login/login.component';
+
 import { BanksComponent } from './shared/components/banks/banks.component';
-import { StockexchangeComponent } from './shared/components/stockexchange/stockexchange.component';
-import { NavbarComponent } from './shared/components/banks/stock-exchange/navbar/navbar.component';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { HomeComponent } from './shared/components/home/home.component';
 import { StockExchangeComponent } from './shared/components/stock-exchange/stock-exchange.component';
+
 
 
 
@@ -39,13 +41,13 @@ import { StockExchangeComponent } from './shared/components/stock-exchange/stock
     RegistroFinalizadoComponent,
     AccesoDenegadoComponent,
     ModalNotRegistroComponent,
-    BanksComponent,
-    StockexchangeComponent,
     NavbarComponent,
+    BanksComponent,
+    HomeComponent,
     StockExchangeComponent,
-
-
   ],
+
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -55,11 +57,28 @@ import { StockExchangeComponent } from './shared/components/stock-exchange/stock
     MatCardModule
 
   ],
-  providers: [AuthGuard, AuthService, SingletonRouterService],
+  providers: [
+    AuthGuard,
+    AuthService,
+    SingletonRouterService,
+  ],
   bootstrap: [AppComponent],
   entryComponents: [ModalNotRegistroComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  exports: [HeaderComponent, ContentComponent, FooterComponent, RegistroClientesComponent, LoginComponent, RegistroFinalizadoComponent, AccesoDenegadoComponent, ModalNotRegistroComponent, BanksComponent, StockexchangeComponent, NavbarComponent, StockExchangeComponent,]
+  exports: [
+    HeaderComponent,
+    ContentComponent,
+    FooterComponent,
+    RegistroClientesComponent,
+    LoginComponent,
+    RegistroFinalizadoComponent,
+    AccesoDenegadoComponent,
+    ModalNotRegistroComponent,
+    NavbarComponent,
+    BanksComponent,
+    HomeComponent,
+    StockExchangeComponent,
+  ]
 })
 
 export class AppModule { }
