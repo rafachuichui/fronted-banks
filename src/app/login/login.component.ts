@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { Router } from '@angular/router';
-import { ModalNotRegistroComponent } from '../modal-not-registro/modal-not-registro.component';
 import { MatDialog } from '@angular/material';
+import { ModalNotRegistroComponent } from '../modal-not-registro/modal-not-registro.component';
+import { SingletonRouterService } from 'src/services/singleton-Router.service'
+
 
 @Component({
   selector: 'app-login',
@@ -25,9 +27,10 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
     this.formLogin = this.fb.group({
-      dni: ['']
+      password: ['']
     });
   }
+  //regexp
   onlynumber(evt) {
     this.theEvent = evt || window.event;
     this.key = this.theEvent.keyCode || this.theEvent.which;
@@ -42,9 +45,9 @@ export class LoginComponent implements OnInit {
   }
   login() {
     this.getRegistro = JSON.parse(localStorage.getItem('registro'));
-    const dniAdmitido = this.getRegistro['dni'];
-    const dniDigitalizado = this.formLogin.get('dni').value;
-    if (dniAdmitido === dniDigitalizado) {
+    const passwordAdmitido = this.getRegistro['password'];
+    const passwordDigitalizado = this.formLogin.get('password').value;
+    if (passwordAdmitido === passwordDigitalizado) {
       this.router.navigate(['home-logueada']);
     } else {
       this.openDialog();

@@ -20,14 +20,14 @@ import { FormBuilder } from '@angular/forms';
 
 //   ngOnInit() {
 //     this.formLogin = this.fb.group({
-//       dni: ['']
+//       password: ['']
 //     });
 //   }
 
 //}
 
 
-// Aqui exportamos l classe HeaderComponent
+// Aqui exportamos la classe HeaderComponent
 export class HeaderComponent implements OnInit {
   // aqui definimos el constructor de la aplicación
   constructor() { }

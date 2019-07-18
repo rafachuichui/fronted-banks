@@ -31,7 +31,7 @@ export class ContentComponent implements OnInit {
     const typed = new Typed('.typing-element', animationsWords);
   }
 
-
+  //Hace que funcione el Boton de crea su cuenta
   gotoRegistroClientes() {
     this.router.navigate(['registro-clientes']);
   }

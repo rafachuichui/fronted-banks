@@ -23,7 +23,7 @@ export class RegistroClientesComponent implements OnInit {
     localStorage.clear();
     this.formRegistro = this.fb.group({
       nombre: [''],
-      dni: [],
+      password: [],
       email: [],
       telefono: [],
       direccion: []
