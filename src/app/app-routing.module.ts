@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { ContentComponent } from './layout/content/content.component';
 import { RegistroClientesComponent } from './registro-clientes/registro-clientes.component';
-import { AuthGuard } from 'src/auth.guard';
+import { AuthGuard } from '../app/core/guards/auth.guard';
 import { RegistroFinalizadoComponent } from './registro-finalizado/registro-finalizado.component';
 import { HomeLogueadaComponent } from './home-logueada/home-logueada.component';
 import { AccesoDenegadoComponent } from './acceso-denegado/acceso-denegado.component';

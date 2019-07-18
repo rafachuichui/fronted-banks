@@ -12,8 +12,8 @@ import { RegistroClientesComponent } from './registro-clientes/registro-clientes
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeLogueadaComponent } from './home-logueada/home-logueada.component';
 import { RegistroFinalizadoComponent } from './registro-finalizado/registro-finalizado.component';
-import { AuthGuard } from 'src/auth.guard';
-import { AuthService } from 'src/auth.service';
+import { AuthGuard } from '../app/core/guards/auth.guard';
+import { AuthService } from '../app/core/services/auth.service';
 import { AccesoDenegadoComponent } from './acceso-denegado/acceso-denegado.component';
 import { ModalNotRegistroComponent } from './modal-not-registro/modal-not-registro.component';
 import { SingletonRouterService } from 'src/services/singleton-Router.service';
