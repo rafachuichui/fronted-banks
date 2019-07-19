@@ -10,30 +10,19 @@ import { FormBuilder } from '@angular/forms';
   styleUrls: ['./header.component.scss']
 })
 
-
-// // Aqui exportamos la clase HeaderComponent
-// export class HeaderComponent implements OnInit {
-//   formLogin
-
-// // aqui definimos el constructor de la aplicación
-//   constructor(private fb: FormBuilder) { }
-
-//   ngOnInit() {
-//     this.formLogin = this.fb.group({
-//       password: ['']
-//     });
-//   }
-
-//}
-
-
 // Aqui exportamos la classe HeaderComponent
 export class HeaderComponent implements OnInit {
   // aqui definimos el constructor de la aplicación
-  constructor() { }
+  formLogin;
+
+  constructor(private fb: FormBuilder) { }
 
   ngOnInit() {
     console.log('Component app-header iniciado...');
+    this.formLogin = this.fb.group({
+      password: ['']
+    });
   }
+
 
 }
