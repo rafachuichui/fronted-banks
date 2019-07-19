@@ -1,6 +1,20 @@
-.wrapper-content {
-    width: 100vw;
-    height: 70vh;
-    z-index: -9999;
-    top: -60px;
-} 
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Poppins');
+
+// .wrapper-content {
+//     width: 100vw;
+//     height: 70vh;
+//     z-index: -9999;
+//     top: -60px;
+// } 
+
+.bg_img3{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000; 
+    background: url('https://www.123formbuilder.com/blog/wp-content/uploads/2013/07/80947_7328.jpg') no-repeat;
+    background-size: cover;
+}
