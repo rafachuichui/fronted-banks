@@ -17,7 +17,7 @@ export class ContentComponent implements OnInit {
     //Animation  works!!
     const animationsWords = {
       stringsElement: '#typed-strings',
-      strings: ['Esto es Banks of Banks amigos', ' Cambiate a nosotros y empieza a ser Banking desde hoy mismo', 'Innovador digital y seguro'],
+      strings: ['Esto es Bank of Banks amigos.', 'Cámbiate a nosotros y empieza a ser Banking desde hoy mismo.', 'Innovador, digital y seguro.'],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 200,

@@ -8,6 +8,8 @@ import { RegistroFinalizadoComponent } from './registro-finalizado/registro-fina
 import { HomeLogueadaComponent } from './home-logueada/home-logueada.component';
 import { AccesoDenegadoComponent } from './acceso-denegado/acceso-denegado.component';
 import { LoginComponent } from './login/login.component';
+import { BanksComponent } from './shared/components/banks/banks.component';
+import { StockExchangeComponent } from './shared/components/stock-exchange/stock-exchange.component';
 
 const routes: Routes = [
   { path: '', component: ContentComponent },
@@ -16,6 +18,8 @@ const routes: Routes = [
   { path: 'home-logueada', component: HomeLogueadaComponent, canActivate: [AuthGuard] },
   { path: 'acceso-denegado', component: AccesoDenegadoComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'banks', component: BanksComponent },
+  { path: 'stock-exchange', component: StockExchangeComponent },
 ];
 
 @NgModule({
@@ -23,6 +27,7 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forRoot(routes)
   ],
+
   declarations: [],
   exports: [RouterModule]
 })
