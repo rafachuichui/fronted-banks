@@ -1,4 +1,4 @@
-![Screenshot_20190720_023253](https://user-images.githubusercontent.com/47748216/61572058-df52b080-aa98-11e9-8ed8-bee4c41a9037.png)
+
 
 # Bank of Banks
 
