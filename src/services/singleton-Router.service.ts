@@ -1,3 +1,4 @@
+// Un service comparte información entre Componentes
 import { Injectable } from '@angular/core';
 
 @Injectable({ providedIn: 'root' })

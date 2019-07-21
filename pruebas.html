@@ -1,0 +1,18 @@
+HTML
+<div class="wrapper-content">
+    <div class="box-tile">
+        <h1><b class="tag">#</b>Bank of Banks</h1>
+        <h2>Toda la información de tus bancos en un solo click</h2>
+        <h1 class="typing-element"></h1>
+        <button class="btn btn-home-registro-clientes" (click)="gotoRegistroClientes()">Crea su cuenta</button>
+    </div>
+
+    <div class="bg_img"></div>
+</div>
+
+
+TS
+Hace que funcione el Boton de crea su cuenta
+gotoRegistroClientes() {
+this.router.navigate(['registro-clientes']);
+}
