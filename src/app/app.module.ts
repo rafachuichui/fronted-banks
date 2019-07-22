@@ -22,9 +22,9 @@ import { MatCardModule } from '@angular/material/card';
 import { LoginComponent } from './login/login.component';
 
 import { BanksComponent } from './shared/components/banks/banks.component';
-import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { HomeComponent } from './shared/components/home/home.component';
 import { StockExchangeComponent } from './shared/components/stock-exchange/stock-exchange.component';
+import { FondosInversionComponent } from './shared/components/fondos-inversion/fondos-inversion.component';
 
 
 
@@ -41,10 +41,10 @@ import { StockExchangeComponent } from './shared/components/stock-exchange/stock
     RegistroFinalizadoComponent,
     AccesoDenegadoComponent,
     ModalNotRegistroComponent,
-    NavbarComponent,
     BanksComponent,
     HomeComponent,
     StockExchangeComponent,
+    FondosInversionComponent,
   ],
 
 
@@ -74,10 +74,10 @@ import { StockExchangeComponent } from './shared/components/stock-exchange/stock
     RegistroFinalizadoComponent,
     AccesoDenegadoComponent,
     ModalNotRegistroComponent,
-    NavbarComponent,
     BanksComponent,
     HomeComponent,
     StockExchangeComponent,
+    FondosInversionComponent,
   ]
 })
 

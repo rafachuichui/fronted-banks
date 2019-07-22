@@ -10,6 +10,7 @@ import { AccesoDenegadoComponent } from './acceso-denegado/acceso-denegado.compo
 import { LoginComponent } from './login/login.component';
 import { BanksComponent } from './shared/components/banks/banks.component';
 import { StockExchangeComponent } from './shared/components/stock-exchange/stock-exchange.component';
+import { FondosInversionComponent } from './shared/components/fondos-inversion/fondos-inversion.component';
 
 const routes: Routes = [
   { path: '', component: ContentComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'banks', component: BanksComponent },
   { path: 'stock-exchange', component: StockExchangeComponent },
+  { path: 'fondos-inversion', component: FondosInversionComponent },
 ];
 
 @NgModule({
